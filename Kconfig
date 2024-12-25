@@ -1,0 +1,7 @@
+menu "Deadkey Slayer Options"
+
+config ZMK_DEADKEY_SLAYER
+    bool "Enable Deadkey Slayer"
+    default n
+
+endmenu
