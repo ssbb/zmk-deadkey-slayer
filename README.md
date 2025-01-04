@@ -19,6 +19,7 @@ manifest:
       import: app/west.yml
     - name: zmk-deadkey-slayer
       remote: ssbb
+      revision: v1
   self:
     path: config
 ```
