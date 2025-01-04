@@ -25,10 +25,4 @@ manifest:
 ```
 
 > [!IMPORTANT]
-> This module should be the last one in either `projects` or in `ZMK_EXTRA_MODULES` if building locally, due to how ZMK defines the order of listeners.
-
-And then enable it in the config:
-
-```text
-ZMK_DEADKEY_SLAYER=y
-```
+> **This module should be the last one in either `projects` or in `ZMK_EXTRA_MODULES` if building locally, due to how ZMK defines the order of listeners.**
