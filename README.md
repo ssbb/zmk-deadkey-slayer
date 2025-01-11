@@ -1,6 +1,8 @@
 # zmk-deadkey-slayer
 
-This very simple module is used to drop illegal keycodes (anything above `0xFF`), which are usually used as indicators for certain behaviors (e.g., adaptive key, auto layer, output listener, reset sticky keys, etc.).
+This very simple module is used to drop illegal keycodes (anything above `0xFF`), which are usually used as indicators for certain behaviors (e.g., adaptive key, auto layer, output listener, etc.).
+
+Please note that user module listeners are always processed before ZMK core ones, so this module can't be used, for example, to reset sticky keys (because the key will be dropped before it reaches ZMK sticky keys listener).
 
 ## Usage
 
